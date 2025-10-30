@@ -1,0 +1,5 @@
+{
+  "name": "Leitor de E-books com IA",
+  "description": "Carregue seus livros e documentos (PDF, EPUB, TXT) e ouça-os em várias línguas com vozes naturais, traduzidos e narrados por IA.",
+  "requestFramePermissions": []
+}

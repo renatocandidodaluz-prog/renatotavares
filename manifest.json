@@ -1,0 +1,28 @@
+{
+  "name": "Leitor de E-books com IA",
+  "short_name": "Leitor IA",
+  "description": "Carregue seus livros e documentos (PDF, EPUB, TXT) e ouça-os em várias línguas com vozes naturais, traduzidos e narrados por IA.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e293b",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://www.gstatic.com/a/studiocdn/studio/projects/app-assets/pwa-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://www.gstatic.com/a/studiocdn/studio/projects/app-assets/pwa-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "https://www.gstatic.com/a/studiocdn/studio/projects/app-assets/pwa-maskable-icon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}
