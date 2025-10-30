@@ -1,5 +1,5 @@
 {
-  "name": "leitor-de-e-books-com-ia",
+  "name": "ai-ebook-reader",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,11 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@google/genai": "^1.27.0",
     "react": "^19.2.0",
     "epubjs": "^0.3.93",
     "react-dom": "^19.2.0",
-    "pdfjs-dist": "^5.4.296",
+    "pdfjs-dist": "4.4.168",
     "idb": "^8.0.3"
   },
   "devDependencies": {

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR" class="dark">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IA Ebook Reader</title>
+    <title>AI Ebook Reader</title>
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#0f172a" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -16,13 +16,12 @@
   <script type="importmap">
 {
   "imports": {
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
     "react": "https://aistudiocdn.com/react@^19.2.0",
     "react-dom/client": "https://aistudiocdn.com/react-dom@^19.2.0/client",
     "epubjs": "https://aistudiocdn.com/epubjs@^0.3.93",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "pdfjs-dist": "https://aistudiocdn.com/pdfjs-dist@^5.4.296/build/pdf.mjs",
+    "pdfjs-dist": "https://esm.sh/pdfjs-dist@4.4.168",
     "idb": "https://aistudiocdn.com/idb@^8.0.3"
   }
 }
@@ -32,7 +31,7 @@
     <div id="root"></div>
     <noscript>
       <div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: sans-serif; background-color: #f0f2f5; color: #333; text-align: center; padding: 2rem;">
-        <h1>JavaScript é necessário para executar esta aplicação. Por favor, habilite-o em seu navegador.</h1>
+        <h1>JavaScript is required to run this application. Please enable it in your browser.</h1>
       </div>
     </noscript>
     <script type="module" src="/index.tsx"></script>
